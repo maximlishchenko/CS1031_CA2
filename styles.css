@@ -1,9 +1,16 @@
-.navbar {
-    background-color: rgb(200, 200, 200);
-    opacity: 0.5;
-    height: 50px;
-    /*display: flex;
-    justify-content: space-between;*/
+.banner-nav {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+}
+
+.nav-item {
+    margin-right: 10px;
 }
 
 body {
@@ -14,11 +21,10 @@ body {
 .banner {
     background-image: url(media/tallinn_view.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     color: white;
-    height: 600px;
-    padding: 40px 0;
+    height: 700px;
     position: relative;
 }
 
@@ -29,6 +35,15 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.banner-inner {
+    position: relative;
+    z-index: 1;
+}
+
+.banner-content {
+    padding: 40px 0;
 }
 
 .banner-title {
