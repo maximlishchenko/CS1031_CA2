@@ -1,0 +1,44 @@
+.navbar {
+    background-color: rgb(200, 200, 200);
+    opacity: 0.5;
+    height: 50px;
+    /*display: flex;
+    justify-content: space-between;*/
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.banner {
+    background-image: url(media/tallinn_view.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 600px;
+    padding: 40px 0;
+    position: relative;
+}
+
+.banner-shadow {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.banner-title {
+    line-height: 1.5em;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    padding: 0 20px;
+}
