@@ -1,5 +1,5 @@
 .banner-nav {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(200, 200, 200, 0.5);
 }
 
 .nav {
@@ -10,7 +10,7 @@
 }
 
 .nav-item {
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
     background-position: center;
     background-size: cover;
     color: white;
-    height: 700px;
+    height: 600px;
     position: relative;
 }
 
@@ -56,4 +56,23 @@ body {
     width: 100%;
     position: relative;
     padding: 0 20px;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+.coat_of_arms {
+    width: 260px;
+    height: 260px;
+    filter: brightness(85%);
+}
+
+.market {
+    float: right;
+    width: 400px;
+    height: 265px;
+    margin-left: 20px;
+    border-radius: 10%;
+    border: solid black 2px;
 }
