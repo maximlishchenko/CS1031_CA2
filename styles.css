@@ -89,17 +89,26 @@ p {
   font-size: 1.1em;
 }
 
-.market {
+.right-img {
   float: right;
+  margin-left: 5px;
 }
 
-.market img {
+.left-img {
+  float: left;
+  margin-right: 10px;
+}
+
+.right-img img,
+.left-img img {
   max-width: 400px;
   width: 100%;
   border: solid black 2px;
 }
 
-.market figcaption {
+.right-img figcaption,
+.left-img figcaption {
+  font-size: 0.9em;
   margin-top: 5px;
 }
 
