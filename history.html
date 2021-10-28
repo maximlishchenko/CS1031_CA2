@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>TBD</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,20 +15,27 @@
     </head>
 
     <body>
-        <div class="banner-nav">
-            <div class="banner-inner">
+        <div class="banner-inner">
+            <div class="banner-nav">
                 <div class="container">
-                    <div class="nav">
-                        <div class="nav-item">
-                            <a href="./index.html" class="btn btn-outline-dark">Home</a>
+                    <nav class="navbar navbar-expand-md navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsible">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link btn btn-outline-dark" href="./index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link btn btn-outline-dark active" href="./history.html">History</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link btn btn-outline-dark" href="./visit.html">What To Do</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="nav-item">
-                            <a href="./history.html" class="btn btn-outline-dark active">History</a>
-                        </div>
-                        <div class="nav-item">
-                            <a href="./visit.html" class="btn btn-outline-dark">What To Do</a>
-                        </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
